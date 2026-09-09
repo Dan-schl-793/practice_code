@@ -1,0 +1,41 @@
+PercentageOfWater = float(
+    input("what percentage of water is the human body made up of?: ")
+)
+
+print("according to you the human body is", PercentageOfWater,"% water")
+
+import math
+
+diameter = int(
+    input("give me a number: ")
+)
+circumference = float(
+    input(math.pi * diameter)
+)
+print("the circumference of the circle for that diameter is", (circumference))
+name = input("what is your name?: ")
+age = input("how old are you?: ")
+welcome_message = print("hello", (name), "you are", (int(age)), "years old, how are you?")
+
+creating a video game character:
+
+def character1(health, name, alive, ability):
+    character_data = []
+
+    character_data.append(health)
+    character_data.append(name)
+    character_data.append(alive)
+    character_data.append(ability)
+
+    return character_data
+
+health_info = int(input("how much health is the character going to have?: "))
+name_info = input("what is the characters name?: ")
+alive_status_info = input("is the character alive?: ")
+ability_info = input("what abilities does the character have?: ")
+
+my_character = character1(
+    health_info, name_info, alive_status_info, ability_info
+)
+
+print(my_character)
