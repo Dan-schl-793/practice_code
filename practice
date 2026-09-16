@@ -75,3 +75,22 @@ print(my_character)
 #
 #----------------------
 #
+# new_file = open("data.txt", "r+")
+# user_input = input("Enter some text to add to the file: ")
+# new_file.write(user_input + "\n")
+
+# print(new_file.read())
+# new_file.close()
+#
+#-----------------------
+#
+#import re
+# from pypdf import PdfReader
+# reader = PdfReader('secret code.pdf')
+
+# print(len(reader.pages))
+# page = reader.pages[0]
+
+# variable = re.search("^[[ .*]]$", page.extract_text())
+
+# print(variable)
