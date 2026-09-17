@@ -94,3 +94,50 @@ print(my_character)
 # variable = re.search("^[[ .*]]$", page.extract_text())
 
 # print(variable)
+
+#-----------------------
+
+# greeting = input("Say hello: ")
+
+# match greeting.lower():
+#     case "hello" | "hi" | "hey" | "yo":
+#         print("Hello there! Nice to meet you.")
+#     case "good morning":
+#         print("Good morning to you too!")
+#     case "good afternoon":
+#         print("Good afternoon!")
+#     case "good evening":
+#         print("Good evening!")
+#     case _:
+#         print("I'm not sure how to respond to that greeting.")
+
+# ----------------
+
+# for i in range(1, 21):
+#     if i % 3 == 0 and i % 5 == 0:
+#       print("yumyuminmytumtum")
+#     elif i % 5 == 0:
+#       print("pizza")
+#     elif i % 3 == 0:
+#       print("yum")
+#     else:
+#       print(i)
+      
+# ------------------
+
+# import random
+
+# random_number = random.randint(1, 100)
+# guess = int(input("guess my number, it's between 1 and 100: "))
+
+# while guess != random_number:
+#     if guess < random_number:
+#         print("wrong, your guess was too low")
+#     elif guess > random_number:
+#         print("wrong, your guess was too high")
+#     guess = int(input("guess again: "))
+
+# print("YES thats my number, good job!")
+
+# --------------------
+
